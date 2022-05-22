@@ -20,7 +20,7 @@ class ProgressBar:
 
 	def display_progress(self, progress: float, formatting="Loading... {0}%"):
 		"""Displays the progress of the given value.
-		params:
+		Args:
 			progress: __float__ - A value between 0 and max_value (default 1).
 			formatting: __str__ - Describe how you want the progress to be shown.
 		"""
