@@ -3,8 +3,11 @@ README.md
 pyproject.toml
 setup.cfg
 src/bars4progress/__init__.py
-src/bars4progress/progress_bar.py
-src/bars4progress/progressbar_builder.py
+src/bars4progress/animatedbarbuilder.py
+src/bars4progress/animtools.py
+src/bars4progress/horizontalbarbuilder.py
+src/bars4progress/progressbar.py
+src/bars4progress/templates.py
 src/bars4progress.egg-info/PKG-INFO
 src/bars4progress.egg-info/SOURCES.txt
 src/bars4progress.egg-info/dependency_links.txt
