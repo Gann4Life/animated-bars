@@ -62,7 +62,10 @@ class HorizontalBar:
 		)
 
 class Templates:
-	"""Usage: Templates.animations()[index]"""
+	"""Available options: 
+		Templates.animations()[index]
+		Templates.horizontal_bars()[index]	
+	"""
 	
 	def horizontal_bars():
 		return [
