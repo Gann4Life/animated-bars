@@ -12,6 +12,7 @@ class ProgressBar:
 		self.frame_interval = frame_interval
 
 	def start(self, run_process):
+		"""Starts the animation of the progress bar and runs another process."""
 		self.animation_thread.start()
 		run_process()
 
