@@ -56,3 +56,12 @@ progressbar = ProgressBar(animbar, my_finish_function)
 #         Pass a function that will execute your main task and set the progressbar's progress there.
 progressbar.start(process_with_progress)
 ```
+*Summary*
+1. Create animation frames
+2. Create animated object using 1.
+3. Create progress bar using 2. and passign a value to `on_finish` argument.
+4. Start progressbar passing a function to execute in parallel as argument.
+5. Update progress values of progressbar inside the function passed at 4.
+
+### Using fillable bars
+*Preparing documentation...*
