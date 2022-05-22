@@ -26,6 +26,7 @@ class ProgressBar:
 		self.animated_bar.set_progress(formatting.format(self.progress()))
 
 	def animation_loop(self):
+		"""Displays the animation untill the progress bar reaches its max value."""
 		while self.current_value < self.max_value:
 			sleep(self.frame_interval)
 			self.animated_bar.next_frame()
