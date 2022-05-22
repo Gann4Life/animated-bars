@@ -1,7 +1,6 @@
 from math import ceil
 from time import sleep
 from threading import Thread
-from animatedbarbuilder import AnimatedBarBuilder
 
 class ProgressBar:
 	"""

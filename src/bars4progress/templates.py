@@ -1,4 +1,5 @@
 from animtools import spin
+from . import horizontalbarbuilder
 from horizontalbarbuilder import HorizontalBarBuilder
 
 horizontal_bars = [
