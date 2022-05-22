@@ -3,6 +3,8 @@ from time import sleep
 from threading import Thread
 
 class ProgressBar:
+	"""Progress bar base class."""
+	
 	def __init__(self, animated_bar, on_finish, max_value=1.0, frame_interval=0.1):
 		self.max_value = max_value
 		self.current_value = 0
