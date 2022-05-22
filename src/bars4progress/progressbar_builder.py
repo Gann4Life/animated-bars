@@ -1,5 +1,4 @@
 import sys
-from deprecated.sphinx import deprecated
 
 def spin(ascii_art: str, shift: int): 
 	"""Shifts the (one line) ascii art by the given index."""
