@@ -4,7 +4,7 @@ Simple and customizable animated progress bars for python.
 
 It allows you to create your own ascii one-line animations and horizontal progress bars.
 
-*Script example*
+### Example for animations
 ```py
 """
 bars4progress 0.1.3 - Example 1 only with animations.
