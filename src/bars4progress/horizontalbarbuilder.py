@@ -15,7 +15,9 @@ class HorizontalBarBuilder:
 		self.formatting = formatting
 	
 	def make_fill(self, value: float, progress: str) -> str:
-		"""Returns a formatted horizontal progress bar with a fill based on the given value."""
+		"""
+		Returns a formatted horizontal progress bar with a fill based on the given value.
+		"""
 		char_progress = round(value * self.length)
 		return self.formatting.format(
 			fill=self.fill_symbol * char_progress,
